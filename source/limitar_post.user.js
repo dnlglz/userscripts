@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name       Limitar tamaño de post
 // @namespace  http://mansonjesus.github.io/userscripts
-// @version    0.4
+// @version    0.5
 // @description  Limita el tamaño de post a 30em
 // @match      http://www.forocoches.com/foro/showthread.php?*
 // @copyright  2013+, mansonjesus
