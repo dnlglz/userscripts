@@ -1,6 +1,6 @@
 ==UserScript==
 // @name       Limitar tamaño de post
-// @namespace  http://userscripts.org
+// @namespace  http://mansonjesus.github.io/userscripts
 // @version    0.3
 // @description  Limita el tamaño de post a 30em
 // @match      http://www.forocoches.com/foro/showthread.php?*
