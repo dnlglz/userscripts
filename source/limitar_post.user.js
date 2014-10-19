@@ -1,4 +1,4 @@
-==UserScript==
+// ==UserScript==
 // @name       Limitar tamaño de post
 // @namespace  http://mansonjesus.github.io/userscripts
 // @version    0.4
