@@ -1,0 +1,4 @@
+userscripts
+===========
+
+Greasemonkey scripts.
