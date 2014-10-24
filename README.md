@@ -8,5 +8,5 @@ Greasemonkey scripts.
 Plugins
 =======
 
-* [Google Chrome](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)
-* [Mozilla Firefox](https://addons.mozilla.org/es/firefox/addon/greasemonkey/)
+* [Tapermonkey (Google Chrome)](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)
+* [Greasemonkey (Mozilla Firefox)](https://addons.mozilla.org/es/firefox/addon/greasemonkey/)
