@@ -2,10 +2,11 @@
 // @name           Minimizar citas
 // @namespace      http://mansonjesus.github.io/userscripts
 // @description    Muestra las citas de forocoches en un tamaño reducido con barra de desplazamiento, con la opción de ver la cita en su tamaño normal.
-// @version   1.2
+// @version   1.3
 // @include        http://www.forocoches.com/foro/showthread.php?*
 // ==/UserScript==
 
+/*
 var citas = document.getElementsByTagName("div");
 var minimizado = "25em";
 
@@ -36,4 +37,12 @@ for(i = 0; i < citas.length; i++){
 
 	}
 
+}
+*/
+
+var contCitas = document.getElementsByTagName("td");
+
+for (i=0; i<contCitas; i++){
+	contCitas[i].removeAttribute("max-height");
+	contCitas[i].removeAttribute("overflow");
 }
