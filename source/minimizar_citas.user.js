@@ -6,7 +6,22 @@
 // @include        http://www.forocoches.com/foro/showthread.php?*
 // ==/UserScript==
 
-/*
+var contCitas = document.getElementsByTagName("td");
+var style = "";
+
+for (i=0; i<contCitas.length; i++){
+	try{
+		style = contCitas[i].getAttribute("style");
+		style = style.replace("max-height:410px;", "");
+		style = style.replace("overflow:auto;", "");
+		contCitas[i].removeAttribute("style");
+		contCitas[i].setAttribute("style", style);
+
+	}catch(err){
+	}
+
+}
+
 var citas = document.getElementsByTagName("div");
 var minimizado = "25em";
 
@@ -37,17 +52,4 @@ for(i = 0; i < citas.length; i++){
 
 	}
 
-}
-*/
-
-var contCitas = document.getElementsByTagName("td");
-var className = "";
-
-for (i=0; i<contCitas; i++){
-	className=contCitas[i].getAttribute("class");
-	console.log(className);
-	if(className="alt2")
-	{
-		contCitas[i].setAttribute("style", "border:1px inset; -moz-border-radius: 8px; border-radius: 8px; margin: 8px; padding: 8px; word-wrap: break-word; display:block; ");
-	}
 }
