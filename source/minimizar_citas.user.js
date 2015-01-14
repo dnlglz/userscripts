@@ -45,6 +45,7 @@ var className = "";
 
 for (i=0; i<contCitas; i++){
 	className=contCitas[i].getAttribute("class");
+	console.log(className);
 	if(className="alt2")
 	{
 		contCitas[i].setAttribute("style", "border:1px inset; -moz-border-radius: 8px; border-radius: 8px; margin: 8px; padding: 8px; word-wrap: break-word; display:block; ");
