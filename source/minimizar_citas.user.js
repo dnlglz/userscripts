@@ -41,8 +41,12 @@ for(i = 0; i < citas.length; i++){
 */
 
 var contCitas = document.getElementsByTagName("td");
+var className = "";
 
 for (i=0; i<contCitas; i++){
-	contCitas[i].removeAttribute("max-height");
-	contCitas[i].removeAttribute("overflow");
+	className=contCitas[i].getAttribute("class");
+	if(className="alt2")
+	{
+		contCitas[i].setAttribute("style", "border:1px inset; -moz-border-radius: 8px; border-radius: 8px; margin: 8px; padding: 8px; word-wrap: break-word; display:block; ");
+	}
 }
